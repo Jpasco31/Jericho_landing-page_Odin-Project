@@ -12,10 +12,6 @@ body{
     font-family: Roboto, sans-serif;
 }
 
-.padding {
-    padding: 32px 200px;
-}
-
 /* header */
 header{
     display:flex;
@@ -23,6 +19,7 @@ header{
     justify-content: space-between;
     background-color: #1f2937;
     letter-spacing: 2px;
+    padding: 32px 200px;
 }
 
 #logo {
@@ -49,6 +46,71 @@ footer{
     align-items: center;
     justify-content: center;
     color:#f9faf8;
+    padding: 32px 200px;
+}
+
+/* content */
+.content{
+    letter-spacing: 1px;
+}
+section {
+    height:500px;
+    padding: 0 200px;
+}
+
+/* showcase */
+#showcase {
+    background-color: #1f2937;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+}
+
+#showcase #main-title{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom:8px;
+}
+
+#showcase p {
+    color: #E5E7EB;
+    font-size:18px;
+    margin-bottom:24px;
+}
+
+#showcase .container {
+    flex: 0 1 60%;
+}
+
+#showcase .img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 40%;
+}
+
+#showcase .img img {
+    width:350px;
+}
+
+#showcase button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-size:18px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
+}
+
+#showcase button:hover{
+    background-color: #f9faf8;
+    color:#3882f6;
+}
+
+#showcase button:active{
+    color:#1f2937;
 }
 
 
