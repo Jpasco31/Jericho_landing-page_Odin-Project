@@ -159,5 +159,30 @@ section {
     width:250px;
 }
 
+/* testimonial */
+#testimonial {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+#testimonial .container {
+    flex: 0 1 auto;
+    width: 800px;
+    font-size: 36px;
+}
+
+#testimonial .quote {
+    font-weight:lighter;
+    font-style: italic;
+}
+
+#testimonial .author {
+    font-size:30px;
+    font-weight:800;
+    text-align: right;
+}
+
 
 
