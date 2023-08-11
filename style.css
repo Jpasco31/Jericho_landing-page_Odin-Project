@@ -184,5 +184,46 @@ section {
     text-align: right;
 }
 
+/* call-to-action */
 
+#call-to-action {
+    flex: 1 1 300px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#f9faf8;
+}
+
+#call-to-action .container{
+    background-color: #3882f6;
+    flex: 0 1 1200px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 160px;
+    border-radius: 15px;
+}
+
+#call-to-action h2{
+    margin-bottom:4px;
+}
+
+#call-to-action button {
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-size:18px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    border-style: solid;
+}
+
+#call-to-action button:hover{
+    background-color: #f9faf8;
+    color:#3882f6;
+}
+
+#call-to-action button:active{
+    color:#1f2937;
+}
 
